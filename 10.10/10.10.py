@@ -8,9 +8,7 @@ def file_read(title):
 
 a = file_read('text.txt')
 
-b = []
-for i in range(a[0][0]):
-    b.append([0 for i in range(a[0][0])])
+b = [[0] * 4 for _ in range(4)]
 
 for i in range(1, len(a)):
     b[(a[i])[0] - 1][(a[i])[1] - 1] = 1
