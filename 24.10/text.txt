@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while read line
+do
+wget -b -q -O  med_elem/${line}.sdf "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/CID/${l>
+
+done
+
+
